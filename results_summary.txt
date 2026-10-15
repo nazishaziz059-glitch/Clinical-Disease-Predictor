@@ -1,0 +1,18 @@
+
+Task 4: Clinical Disease Predictor
+
+Dataset: Wisconsin Breast Cancer Diagnostic dataset
+Positive class: Malignant
+Selected model: SVM
+
+Test Accuracy: 0.9825
+Test Precision: 1.0000
+Test Recall: 0.9524
+Test F1-score: 0.9756
+Test ROC-AUC: 0.9934
+
+Best hyperparameters:
+{'classifier__C': 10, 'classifier__class_weight': None, 'classifier__kernel': 'rbf'}
+
+Mean five-fold CV recall:
+0.9588

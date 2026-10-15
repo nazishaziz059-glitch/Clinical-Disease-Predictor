@@ -1,0 +1,4 @@
+Model,Best CV Recall,CV Recall Std,Test Accuracy,Test Precision,Test Recall,Test F1,Test ROC-AUC,Best Parameters
+SVM,0.9588235294117646,0.03529411764705883,0.9824561403508771,1.0,0.9523809523809523,0.975609756097561,0.9933862433862434,"{'classifier__C': 10, 'classifier__class_weight': None, 'classifier__kernel': 'rbf'}"
+Random Forest,0.9470588235294117,0.04322628957852668,0.9736842105263158,1.0,0.9285714285714286,0.9629629629629629,0.996031746031746,"{'classifier__class_weight': None, 'classifier__max_depth': None, 'classifier__n_estimators': 200}"
+XGBoost,0.9588235294117646,0.029994232432898737,0.9649122807017544,1.0,0.9047619047619048,0.95,0.9930555555555555,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 5, 'classifier__n_estimators': 200}"
